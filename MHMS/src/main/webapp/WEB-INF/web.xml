@@ -2,14 +2,17 @@
 <web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" id="WebApp_ID" version="5.0">
   <display-name>MHMS</display-name>
   <welcome-file-list>
+
    <welcome-file>index.jsp</welcome-file>
     <welcome-file>admin_Login.jsp</welcome-file>
     <welcome-file>doctor_Login.jsp</welcome-file>
     <welcome-file>signup.jsp</welcome-file>
     <welcome-file>User_Login.jsp</welcome-file>
     <welcome-file>Admin/index.jsp</welcome-file>
+      <welcome-file>Admin/doctor.jsp</welcome-file>
     <welcome-file>Admin/navbar.jsp</welcome-file>
-     
+       <welcome-file>User/navbar.jsp</welcome-file>
+         <welcome-file>User/index.jsp</welcome-file>
        <welcome-file>componet/allcss.jsp</welcome-file>
         <welcome-file>componet/footer.jsp</welcome-file>
          <welcome-file>componet/navbar.jsp</welcome-file>
