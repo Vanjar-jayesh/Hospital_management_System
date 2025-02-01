@@ -25,12 +25,12 @@
 						<p class="fs-4 text-center">User Login</p>
 						
 						
-							<c:if test="${not empty ErrorMsg}">
+						    <c:if test="${not empty sucMsg}">
 						
-						<p class="text-center text-success fs-3">${ErrorMsg}</p>
-						<c:remove var="${ErrorMsg}"/>
+						<p class="text-center text-success fs-3">${sucMsg}</p>
+						<c:remove var="${sucMsg}"/>
 						</c:if>
-						
+	
 						<form action="UserLogin" method="post">
 							<div class="mb-3">
 								<label class="form-label">Email address</label> <input required
